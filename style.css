@@ -37,7 +37,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #e74c3c;
+    border: 5px solid #ff2929;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -49,7 +49,7 @@ body {
 
 .name {
     font-size: 2.5em;
-    color: #e74c3c;
+    color: #ff2929;
     margin: 10px 0;
     font-weight: bold;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
@@ -69,7 +69,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    color: #e74c3c;
+    color: #ff2929;
     z-index: -1;
     transform: rotateY(20deg);
     opacity: 0.6;
@@ -116,7 +116,7 @@ body {
 }
 
 .bio span[data-mirror] {
-    color: #e74c3c;
+    color: #ff2929;
     transform: rotateX(0deg) rotateY(0deg);
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .link {
-    border-bottom: 2px solid #e74c3c;
+    border-bottom: 2px solid #ff2929;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,7 +145,7 @@ body {
 }
 
 .link:hover {
-    background: #e74c3c;
+    background: #ff2929;
     color: #fff;
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
